@@ -293,7 +293,7 @@ en:
     search:
       start: Start searching...
   landing:
-    about: "%{href} is a simple front-end for your JasMeet open-source web conferencing server. You can create your own rooms to host sessions, or join others using a short and convenient link."
+    about: "JasMeet offers a secure, dedicated, reliable and unified communications solution for your business needs."
     welcome: Welcome to JasMeet.
     video: Watch our tutorial on using JasMeet
     upgrade: Show me how to upgrade to 2.0!
