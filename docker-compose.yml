@@ -3,7 +3,7 @@ version: '3'
 services:
   app:
     entrypoint: [bin/start]
-    image: localhost:5000/gl-jasmeet:v2
+    image: localhost:5000/gl-jasmeet:release-v2
     container_name: greenlight-v2
     env_file: .env
     restart: unless-stopped
