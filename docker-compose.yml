@@ -3,12 +3,12 @@ version: '3'
 services:
   app:
     entrypoint: [bin/start]
-    image: localhost:5000/gl-jasmeet:release-v2
+    image: localhost:5001/gl-fta:release-v2
     container_name: greenlight-v2
     env_file: .env
     restart: unless-stopped
     ports:
-      - 127.0.0.1:5000:80
+      - 127.0.0.1:5001:80
 # When using external logging
 #    logging:
 #      driver: $LOG_DRIVER
